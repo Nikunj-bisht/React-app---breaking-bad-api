@@ -1,0 +1,28 @@
+.header{
+
+text-align: center;
+font-size: 70px;
+color: green;
+
+}
+body{
+
+background-color: black;
+
+
+}
+.char{
+
+color: aliceblue;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px; 
+grid-auto-rows: minmax(100px,auto);
+}
+.images{
+
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+
+
+}
