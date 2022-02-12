@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Headercomponent = ()=>{
-
+console.log("Hello made");
     return (
 
 <header className="header" >
